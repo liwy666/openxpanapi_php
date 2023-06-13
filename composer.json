@@ -1,0 +1,34 @@
+{
+    "description": "xpanapi",
+    "keywords": [
+        "openapitools",
+        "openapi-generator",
+        "openapi",
+        "php",
+        "sdk",
+        "rest",
+        "api"
+    ],
+    "homepage": "https://github.com/clainy/openxpanapi_php",
+    "license": "unlicense",
+    "authors": [
+        {
+            "name": "Clainy",
+            "homepage": "https://github.com/clainy/openxpanapi_php"
+        }
+    ],
+    "require": {
+        "php": "^5.5",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/psr7": "^1.7 || ^2.0",
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "autoload": {
+        "psr-4": { "OpenAPI\\Client\\" : "lib/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "OpenAPI\\Client\\Demo\\" : "demo/" }
+    }
+}
