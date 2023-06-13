@@ -1,4 +1,5 @@
 {
+    "name": "clainy/openxpanapi",
     "description": "xpanapi",
     "keywords": [
         "openapitools",
